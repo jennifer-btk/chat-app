@@ -1,0 +1,50 @@
+.CtnChatbox {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+    border-radius: 3px;
+}
+.CtnAvatar {
+    display: inline-block;
+    margin-right: 25px; 
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.CtnAvatar img{
+    width: 160%;
+}
+.CtnChatbox h3 {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+.CtnChatbox p {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    color: black;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.CtnChatbox .Isoffline .GetStatus,
+.CtnChatbox .Isonline .GetStatus {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin-right: 7px;
+}
+.CtnChatbox .Isonline .GetStatus {
+    background-color:green;
+
+}
+.CtnChatbox .Isoffline .GetStatus {
+    background-color: #E83A30;
+}
